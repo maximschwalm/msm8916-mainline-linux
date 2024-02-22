@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: BSD-3-Clause
+
+/dts-v1/;
+
+#include "qcom-msm8226-motorola-common.dtsi"
+
+/ {
+	model = "Motorola Moto G (2013)";
+	compatible = "motorola,falcon", "qcom,msm8226";
+};
