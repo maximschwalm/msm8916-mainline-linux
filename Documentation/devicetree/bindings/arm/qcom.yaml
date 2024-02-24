@@ -185,6 +185,12 @@ properties:
               - qcom,apq8084-sbc
           - const: qcom,apq8084
 
+      - description: Motorola Moto G (2013)
+        items:
+          - enum:
+              - motorola,falcon
+          - const: qcom,msm8226
+
       - items:
           - enum:
               - samsung,s3ve3g
